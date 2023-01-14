@@ -4,7 +4,7 @@ $seed = time();
 //获取随机数
 $num = rand(1,13);
 //拼接图片地址
-$picpath = "https://github.com/qiuyedx/mypicapi/ani_r12".$num.".jpeg";
+$picpath = "https://github.com/qiuyedx/mypicapi/blob/main/ani_r12".$num.".jpeg";
 //重定位到图片
 die(header("Location: $picpath"));
 ?>
